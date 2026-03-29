@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply font-body text-gray-800 antialiased bg-white dark:bg-gray-950 dark:text-gray-100 transition-colors duration-300;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold text-samarkand-950
+      bg-gradient-to-r from-gold-400 to-amber-400
+      hover:from-gold-300 hover:to-amber-300
+      shadow-lg hover:shadow-gold-400/40
+      transform hover:scale-105 transition-all duration-300
+      focus:outline-none focus:ring-2 focus:ring-gold-400 focus:ring-offset-2;
+  }
+  .btn-outline {
+    @apply inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold
+      border-2 border-white text-white
+      hover:bg-white hover:text-samarkand-950
+      transform hover:scale-105 transition-all duration-300
+      focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2;
+  }
+  .btn-outline-gold {
+    @apply inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold
+      border-2 border-gold-400 text-gold-500
+      hover:bg-gold-400 hover:text-samarkand-950
+      transform hover:scale-105 transition-all duration-300;
+  }
+  .card {
+    @apply bg-white dark:bg-gray-800 rounded-2xl shadow-md hover:-translate-y-1 hover:shadow-xl transition-all duration-300;
+  }
+  .section-heading {
+    @apply text-3xl md:text-4xl font-heading font-bold text-samarkand-900;
+  }
+  .gold-divider {
+    @apply flex items-center justify-center gap-3 my-3;
+  }
+  .shimmer {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+  }
+  .dark .shimmer {
+    background: linear-gradient(90deg, #374151 25%, #4b5563 50%, #374151 75%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .glass {
+    @apply bg-white/80 backdrop-blur-md;
+  }
+  .glass-dark {
+    @apply bg-black/40 backdrop-blur-sm;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-gold-400 rounded-full;
+}
+
+/* AOS overrides */
+[data-aos] {
+  pointer-events: none;
+}
+[data-aos].aos-animate {
+  pointer-events: auto;
+}
+
+/* Swiper custom styles */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #C9A84C !important;
+  background: white;
+  border-radius: 50%;
+  width: 44px !important;
+  height: 44px !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 16px !important;
+  font-weight: bold;
+}
+.swiper-pagination-bullet-active {
+  background: #C9A84C !important;
+}

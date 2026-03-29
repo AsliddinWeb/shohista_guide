@@ -1,0 +1,296 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "tours": "Turlar",
+    "about": "Biz haqimizda",
+    "gallery": "Galereya",
+    "contact": "Aloqa"
+  },
+  "hero": {
+    "title": "Samarqandni biz bilan kashf eting",
+    "subtitle": "Sertifikatlangan gid Shohista — qadimiy me'morchilik va Ipak yo'li tarixi olamida yo'l ko'rsatuvchingiz",
+    "cta_tours": "Turlarni ko'rish",
+    "cta_contact": "Bizga yozing",
+    "badge": "✓ Sertifikatlangan gid"
+  },
+  "stats": {
+    "tourists": "Mamnun sayyohlar",
+    "experience": "Yillik tajriba",
+    "languages": "Xizmat tillari",
+    "cities": "Shahar"
+  },
+  "about": {
+    "title": "Gidingiz bilan tanishing",
+    "subtitle": "Tarix bo'yicha chuqur bilimlarga ega sertifikatlangan mutaxassis",
+    "greeting": "Salom, men Shohista",
+    "description": "Men Samarqand va Shahrisabz bo'ylab sertifikatlangan gidman. Rus, o'zbek va ingliz tillarida gaplashaman. Samarqandning barcha go'zalligini ko'rsataman — ulug'vor Registondan tortib qadimiy shaharning tinch ko'chalarigacha.",
+    "badge_cert": "Gid sertifikati",
+    "badge_lang": "3 til",
+    "badge_rating": "5 yulduzli reyting",
+    "instagram": "Instagramda kuzatish",
+    "years": "yillik tajriba",
+    "happy": "mamnun sayyoh"
+  },
+  "services": {
+    "title": "Bizning xizmatlar",
+    "subtitle": "Professional gidlar, haydovchilar va master-klasslar",
+    "from": "dan",
+    "per_person": "/kishi",
+    "book_now": "Buyurtma berish",
+    "items": [
+      {
+        "title": "Individual ekskursiya",
+        "description": "Biznes-klass avtomobilida professional gid bilan shaxsiy ekskursiya",
+        "price": "$30",
+        "duration": "3-4 soat"
+      },
+      {
+        "title": "Guruhli ekskursiya",
+        "description": "Professional gid va qulay transport bilan guruhlar uchun ekskursiya",
+        "price": "$15",
+        "duration": "3-4 soat",
+        "note": "/kishi"
+      },
+      {
+        "title": "Master-klass: Palov",
+        "description": "Haqiqiy o'zbek palovi tayyorlash bo'yicha master-klass — mahalliy ustalardan sirlar",
+        "price": "$25",
+        "duration": "2-3 soat"
+      },
+      {
+        "title": "Master-klass: Samsa va Non",
+        "description": "An'anaviy samsa va o'zbek nonini yasashni o'rganing",
+        "price": "$20",
+        "duration": "1.5-2 soat"
+      },
+      {
+        "title": "Shahrisabzga tur",
+        "description": "Amir Temur vatani Shahrisabzga bir kunlik sayohat. Biznes-klass avto",
+        "price": "$40",
+        "duration": "to'liq kun"
+      },
+      {
+        "title": "Transfer + Gid",
+        "description": "Aeroport yoki vokzalda kutib olish va biznes-klass avtomobilida ekskursiya",
+        "price": "$20",
+        "duration": "so'rovga ko'ra"
+      }
+    ]
+  },
+  "tours": {
+    "title": "Mashhur turlar",
+    "subtitle": "Samarqand durdona joylarini kashf eting",
+    "book_tour": "Turni buyurtma berish",
+    "duration": "Davomiyligi",
+    "group": "Guruh",
+    "price_from": "dan",
+    "highlights": "Xususiyatlar",
+    "hours": "soat",
+    "full_day": "To'liq kun",
+    "per_person": "kishidan",
+    "items": [
+      {
+        "name": "Registon ansambli",
+        "duration": "3 soat",
+        "groupSize": "1-10",
+        "price": "$30",
+        "highlights": ["Uchta ajoyib madrasa", "Temuriylar davri tarixi", "Eng yaxshi foto nuqtalar"]
+      },
+      {
+        "name": "Shohizinda",
+        "duration": "2 soat",
+        "groupSize": "1-10",
+        "price": "$25",
+        "highlights": ["9-14 asr nekropoli", "Noyob mozaika", "Ma'naviy joy"]
+      },
+      {
+        "name": "Bibixonim masjidi",
+        "duration": "1.5 soat",
+        "groupSize": "1-10",
+        "price": "$20",
+        "highlights": ["Markaziy Osiyoning eng yirik masjidi", "Temur tarixi", "Me'moriy tafsilotlar"]
+      },
+      {
+        "name": "Go'ri Amir maqbarasi",
+        "duration": "1.5 soat",
+        "groupSize": "1-10",
+        "price": "$20",
+        "highlights": ["Temur qabri", "Ko'k gumbaz", "Temuriylar san'ati"]
+      },
+      {
+        "name": "Afrosiyob muzeyi",
+        "duration": "2 soat",
+        "groupSize": "1-10",
+        "price": "$25",
+        "highlights": ["Qadimiy Samarqand", "VII asrning noyob freskalari", "So'g'd sivilizatsiyasi"]
+      },
+      {
+        "name": "Shahrisabz — Oq Saroy",
+        "duration": "To'liq kun",
+        "groupSize": "1-10",
+        "price": "$45",
+        "highlights": ["Temur vatani", "Oq Saroy saroyi", "Do'rut-Tilovot maqbarasi"]
+      }
+    ]
+  },
+  "whyus": {
+    "title": "Nima uchun bizni tanlaydilar",
+    "subtitle": "Shohistani gidingiz sifatida tanlash uchun 6 sabab",
+    "items": [
+      {
+        "title": "Sertifikatlangan gid",
+        "description": "O'zbekiston turizm organlari tomonidan tan olingan rasmiy gid guvohnomasi"
+      },
+      {
+        "title": "3 tilda xizmat",
+        "description": "Qulayligingiz uchun rus, o'zbek va ingliz tillarida ekskursiyalar"
+      },
+      {
+        "title": "Individual yondashuv",
+        "description": "Har bir marshrut sizning qiziqishlaringiz va istaklaringizga moslashtiriladi"
+      },
+      {
+        "title": "Transport kiritilgan",
+        "description": "Qulay transport ko'pgina turlarimiz narxiga kiritilgan"
+      },
+      {
+        "title": "Moslashuvchan jadval",
+        "description": "Biz sizning jadvalingizga mos kelamiz — erta tongdan kech kechgacha"
+      },
+      {
+        "title": "Haqiqiy sharhlar",
+        "description": "Google va TripAdvisorда tasdiqlangan 5 yulduzli sharhlar"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Galereya",
+    "subtitle": "Unutilmas sayohatlar lahzalari",
+    "instagram_btn": "Instagramda ko'proq ko'rish",
+    "categories": {
+      "all": "Barchasi",
+      "registan": "Registon",
+      "shahizinda": "Shohizinda",
+      "shahrisabz": "Shahrisabz",
+      "tours": "Turlar"
+    }
+  },
+  "testimonials": {
+    "title": "Sayyohlar sharhlari",
+    "subtitle": "Sayohatchilari nimalar deydi",
+    "items": [
+      {
+        "text": "Shohista bizga hech qachon o'zimiz topa olmaydigan Samarqandni ko'rsatdi. Ajoyib tarix bilimlari!",
+        "name": "Anna K.",
+        "city": "Moskva",
+        "flag": "🇷🇺",
+        "source": "Google Reviews"
+      },
+      {
+        "text": "Professional gid, zo'r rus tili, hamma narsa rejada. Registon ayniqsa taassurot qoldirdi!",
+        "name": "Dmitriy V.",
+        "city": "Sankt-Peterburg",
+        "flag": "🇷🇺",
+        "source": "TripAdvisor"
+      },
+      {
+        "text": "Ajoyib Shahrisabz safari! Shohista zo'r gid, tarixni juda yaxshi biladi, qiziqarli hikoya qiladi. Tavsiya qilaman!",
+        "name": "Elena M.",
+        "city": "Olmaota",
+        "flag": "🇰🇿",
+        "source": "Google Reviews"
+      },
+      {
+        "text": "Samarqand bo'ylab individual tur oldik. Shohista juda e'tiborli, bizning tezligimizga moslashdi.",
+        "name": "Mariya T.",
+        "city": "Minsk",
+        "flag": "🇧🇾",
+        "source": "TripAdvisor"
+      },
+      {
+        "text": "Excellent guide! Shohista speaks perfect Russian and English. She made our Samarkand experience truly unforgettable!",
+        "name": "Thomas L.",
+        "city": "Berlin",
+        "flag": "🇩🇪",
+        "source": "Google Reviews"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Ko'p beriladigan savollar",
+    "subtitle": "Sayyohlarning mashhur savollariga javoblar",
+    "items": [
+      {
+        "question": "Ekskursiyalar qaysi tillarda o'tkaziladi?",
+        "answer": "Men ekskursiyalarni rus, o'zbek va ingliz tillarida o'tkazaman. Har bir mehmon uchun eng qulay muloqot variantini tanlaymiz."
+      },
+      {
+        "question": "Turni qanday bron qilish mumkin?",
+        "answer": "Saytdagi forma orqali ariza qoldiring, Instagram @shohista_guide ga yozing yoki elektron pochta orqali bog'laning. 2 soat ichida javob beramiz."
+      },
+      {
+        "question": "Transport narxga kiritilganmi?",
+        "answer": "Ko'pgina turlarimizda transport allaqachon kiritilgan. Bron qilishda bu masalani aniqlashtiring — biz har doim optimal yechim topamiz."
+      },
+      {
+        "question": "Minimal guruh hajmi qancha?",
+        "answer": "Minimal guruh hajmi — 1 kishi. Biz individual sayyohlar bilan ham, 10 kishigacha guruhlar bilan ham ishlaymiz."
+      },
+      {
+        "question": "Marshrut o'zgartirilishi mumkinmi?",
+        "answer": "Albatta! Barcha marshrutlar moslashuvchan va sizning qiziqishlaringizga moslashtiriladi. Oldindan qiziqtirayotganingizni ayting — ideal tur tuzamiz."
+      },
+      {
+        "question": "To'lov qanday amalga oshiriladi?",
+        "answer": "To'lov naqd pul (USD yoki UZS) yoki o'tkazma orqali qabul qilinadi. Yashirin komissiyalar yo'q."
+      },
+      {
+        "question": "Bolalar uchun chegirmalar bormi?",
+        "answer": "Ha! 6 yoshgacha bolalar — bepul, 6 dan 12 yoshgacha — 50% chegirma. Bron qilishda tafsilotlarni aniqlashtirib oling."
+      },
+      {
+        "question": "Samarqand bo'ylab umumiy ekskursiya qancha vaqt davom etadi?",
+        "answer": "Asosiy diqqatga sazovor joylar bo'ylab standart umumiy ekskursiya 4-5 soat davom etadi."
+      },
+      {
+        "question": "O'zbekistonga tashrif buyurish uchun viza kerakmi?",
+        "answer": "MDH fuqarolari O'zbekistonga vizasiz kirishi mumkin. Boshqa mamlakatlar uchun O'zbekiston TIF rasmiy saytida visa talablarini tekshirishni tavsiya qilamiz."
+      },
+      {
+        "question": "Samarqandga qachon borish yaxshiroq?",
+        "answer": "Eng yaxshi vaqt — bahor (aprel-may) va kuz (sentyabr-oktyabr). Bu davrda qulay harorat va kam sayyoh. Lekin biz yil bo'yi ishlaymiz!"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Turni bron qilish",
+    "subtitle": "Ariza qoldiring va biz 2 soat ichida siz bilan bog'lanamiz",
+    "name": "Ismingiz",
+    "email": "Email manzil",
+    "phone": "Telefon raqam",
+    "tour": "Turni tanlang",
+    "tour_placeholder": "Qiziqtirayotgan turni tanlang",
+    "date": "Sayohat sanasi",
+    "message": "Xabaringiz",
+    "message_placeholder": "Istaklaringiz haqida gapiring...",
+    "submit": "Ariza yuborish",
+    "submitting": "Yuborilmoqda...",
+    "success": "Ariza qabul qilindi! 2 soat ichida bog'lanamiz.",
+    "error": "Yuborishda xatolik. Keyinroq urinib ko'ring.",
+    "required": "Majburiy maydon",
+    "email_invalid": "To'g'ri email kiriting",
+    "address": "Samarqand, O'zbekiston",
+    "schedule": "08:00 - 20:00, Du-Ya",
+    "schedule_label": "Ish vaqti"
+  },
+  "footer": {
+    "tagline": "Samarqand va Ipak yo'li bo'ylab sertifikatlangan gidingiz",
+    "quick_links": "Tezkor havolalar",
+    "our_tours": "Bizning turlar",
+    "languages_title": "Tillar",
+    "social": "Ijtimoiy tarmoqlar",
+    "privacy": "Maxfiylik siyosati",
+    "made_with": "❤️ bilan Samarqandda yasaldi",
+    "copyright": "© 2024 Shohista Guide. Samarqand, O'zbekiston."
+  }
+}

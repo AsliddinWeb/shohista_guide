@@ -1,0 +1,296 @@
+{
+  "nav": {
+    "home": "Home",
+    "tours": "Tours",
+    "about": "About",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Discover Samarkand With Us",
+    "subtitle": "Certified guide Shohista — your gateway to the world of ancient architecture and Silk Road history",
+    "cta_tours": "View Tours",
+    "cta_contact": "Contact Us",
+    "badge": "✓ Certified Guide"
+  },
+  "stats": {
+    "tourists": "Happy Tourists",
+    "experience": "Years Experience",
+    "languages": "Languages",
+    "cities": "Cities"
+  },
+  "about": {
+    "title": "Meet Your Guide",
+    "subtitle": "Certified specialist with deep knowledge of history",
+    "greeting": "Hi, I'm Shohista",
+    "description": "I'm a certified guide for Samarkand and Shahrisabz. I speak Russian, Uzbek, and English. I'll show you all the beauty of Samarkand — from the majestic Registan to the quiet alleyways of the old city. Every tour is a living history of the Great Silk Road.",
+    "badge_cert": "Guide Certificate",
+    "badge_lang": "3 Languages",
+    "badge_rating": "5-Star Rating",
+    "instagram": "Follow on Instagram",
+    "years": "years experience",
+    "happy": "happy tourists"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Professional guides, drivers and cooking master classes",
+    "from": "from",
+    "per_person": "/person",
+    "book_now": "Book Now",
+    "items": [
+      {
+        "title": "Private Excursion",
+        "description": "Personal tour with a professional guide in a business class car at your own pace",
+        "price": "$30",
+        "duration": "3-4 hours"
+      },
+      {
+        "title": "Group Excursion",
+        "description": "Exciting tour for groups with a professional guide and comfortable transport",
+        "price": "$15",
+        "duration": "3-4 hours",
+        "note": "/person"
+      },
+      {
+        "title": "Master Class: Plov",
+        "description": "Cooking master class for authentic Uzbek plov — secrets from local masters",
+        "price": "$25",
+        "duration": "2-3 hours"
+      },
+      {
+        "title": "Master Class: Samsa & Bread",
+        "description": "Learn to make traditional samsa and Uzbek flatbread in a cozy atmosphere",
+        "price": "$20",
+        "duration": "1.5-2 hours"
+      },
+      {
+        "title": "Shahrisabz Day Trip",
+        "description": "One-day trip to ancient Shahrisabz — birthplace of Tamerlane. Business class car",
+        "price": "$40",
+        "duration": "full day"
+      },
+      {
+        "title": "Transfer + Guide",
+        "description": "Airport or station pickup with a city tour in a business class car",
+        "price": "$20",
+        "duration": "on request"
+      }
+    ]
+  },
+  "tours": {
+    "title": "Popular Tours",
+    "subtitle": "Discover the gems of Samarkand",
+    "book_tour": "Book This Tour",
+    "duration": "Duration",
+    "group": "Group",
+    "price_from": "from",
+    "highlights": "Highlights",
+    "hours": "hours",
+    "full_day": "Full Day",
+    "per_person": "per person",
+    "items": [
+      {
+        "name": "Registan Ensemble",
+        "duration": "3 hours",
+        "groupSize": "1-10",
+        "price": "$30",
+        "highlights": ["Three magnificent madrasahs", "Timurid era history", "Best photo spots"]
+      },
+      {
+        "name": "Shah-i-Zinda",
+        "duration": "2 hours",
+        "groupSize": "1-10",
+        "price": "$25",
+        "highlights": ["9th-14th century necropolis", "Unique mosaics", "Spiritual place"]
+      },
+      {
+        "name": "Bibi-Khanym Mosque",
+        "duration": "1.5 hours",
+        "groupSize": "1-10",
+        "price": "$20",
+        "highlights": ["Largest mosque in Central Asia", "History of Tamerlane", "Architectural details"]
+      },
+      {
+        "name": "Gur-e-Amir Mausoleum",
+        "duration": "1.5 hours",
+        "groupSize": "1-10",
+        "price": "$20",
+        "highlights": ["Tomb of Tamerlane", "Turquoise dome", "Timurid art"]
+      },
+      {
+        "name": "Afrasiab Museum",
+        "duration": "2 hours",
+        "groupSize": "1-10",
+        "price": "$25",
+        "highlights": ["Ancient Samarkand", "Unique 7th century frescoes", "Sogdian civilization"]
+      },
+      {
+        "name": "Shahrisabz — Ak-Saray",
+        "duration": "Full Day",
+        "groupSize": "1-10",
+        "price": "$45",
+        "highlights": ["Birthplace of Tamerlane", "Ak-Saray Palace", "Dorus-Tilovat Mausoleum"]
+      }
+    ]
+  },
+  "whyus": {
+    "title": "Why Choose Us",
+    "subtitle": "6 reasons to trust Shohista as your guide",
+    "items": [
+      {
+        "title": "Certified Guide",
+        "description": "Official guide certification recognized by Uzbekistan's tourism authorities"
+      },
+      {
+        "title": "3 Languages",
+        "description": "Tours in Russian, Uzbek, and English for your comfort"
+      },
+      {
+        "title": "Individual Approach",
+        "description": "Every route is adapted to your interests, pace, and wishes"
+      },
+      {
+        "title": "Transport Included",
+        "description": "Comfortable transport is included in most of our tours"
+      },
+      {
+        "title": "Flexible Schedule",
+        "description": "We'll fit your schedule — early morning or late evening"
+      },
+      {
+        "title": "Verified Reviews",
+        "description": "Confirmed 5-star reviews on Google and TripAdvisor"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Moments of unforgettable journeys",
+    "instagram_btn": "See more on Instagram",
+    "categories": {
+      "all": "All",
+      "registan": "Registan",
+      "shahizinda": "Shah-i-Zinda",
+      "shahrisabz": "Shahrisabz",
+      "tours": "Tours"
+    }
+  },
+  "testimonials": {
+    "title": "Tourist Reviews",
+    "subtitle": "What our travelers say",
+    "items": [
+      {
+        "text": "Shohista showed us a Samarkand we never would have found on our own. Incredible knowledge of history!",
+        "name": "Anna K.",
+        "city": "Moscow",
+        "flag": "🇷🇺",
+        "source": "Google Reviews"
+      },
+      {
+        "text": "Professional guide, excellent Russian, everything on schedule. Registan was especially impressive!",
+        "name": "Dmitry V.",
+        "city": "St. Petersburg",
+        "flag": "🇷🇺",
+        "source": "TripAdvisor"
+      },
+      {
+        "text": "Wonderful trip to Shahrisabz! Shohista is an excellent guide, knows history very well. Highly recommend!",
+        "name": "Elena M.",
+        "city": "Almaty",
+        "flag": "🇰🇿",
+        "source": "Google Reviews"
+      },
+      {
+        "text": "We took a private tour of Samarkand. Shohista was very attentive and adapted to our pace perfectly!",
+        "name": "Maria T.",
+        "city": "Minsk",
+        "flag": "🇧🇾",
+        "source": "TripAdvisor"
+      },
+      {
+        "text": "Excellent guide! Shohista speaks perfect Russian and English. She made our Samarkand experience truly unforgettable!",
+        "name": "Thomas L.",
+        "city": "Berlin",
+        "flag": "🇩🇪",
+        "source": "Google Reviews"
+      }
+    ]
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers to popular tourist questions",
+    "items": [
+      {
+        "question": "What languages do you conduct tours in?",
+        "answer": "I conduct tours in Russian, Uzbek, and English. We'll find the most comfortable communication option for each guest."
+      },
+      {
+        "question": "How do I book a tour?",
+        "answer": "Leave a request through the form on the website, write to Instagram @shohista_guide, or contact us by email. We'll respond within 2 hours."
+      },
+      {
+        "question": "Is transport included in the price?",
+        "answer": "Transport is already included in most of our tours. Clarify this when booking — we'll always find the optimal solution."
+      },
+      {
+        "question": "What is the minimum group size?",
+        "answer": "The minimum group size is 1 person. We work with both individual tourists and groups of up to 10 people."
+      },
+      {
+        "question": "Can the route be changed?",
+        "answer": "Of course! All routes are flexible and adapted to your interests. Tell us what you're interested in advance — we'll create the perfect tour."
+      },
+      {
+        "question": "How does payment work?",
+        "answer": "Payment is accepted in cash (USD or UZS) or by transfer. No hidden fees — the price you see is the final price."
+      },
+      {
+        "question": "Are there discounts for children?",
+        "answer": "Yes! Children under 6 — free, from 6 to 12 years — 50% discount. Clarify details when booking."
+      },
+      {
+        "question": "How long is the overview tour of Samarkand?",
+        "answer": "The standard overview tour of main attractions takes 4-5 hours. We can make it shorter or longer as you wish."
+      },
+      {
+        "question": "Do I need a visa to visit Uzbekistan?",
+        "answer": "Citizens of CIS countries can enter Uzbekistan without a visa. For other countries, we recommend checking visa requirements on the official Uzbekistan MFA website."
+      },
+      {
+        "question": "When is the best time to visit Samarkand?",
+        "answer": "The best time is spring (April-May) and autumn (September-October). Comfortable temperatures and fewer tourists. But we work year-round!"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Book a Tour",
+    "subtitle": "Leave a request and we'll contact you within 2 hours",
+    "name": "Your Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "tour": "Select a Tour",
+    "tour_placeholder": "Choose the tour you're interested in",
+    "date": "Travel Date",
+    "message": "Your Message",
+    "message_placeholder": "Tell us about your wishes...",
+    "submit": "Send Request",
+    "submitting": "Sending...",
+    "success": "Request accepted! We'll contact you within 2 hours.",
+    "error": "Send error. Please try again later.",
+    "required": "Required field",
+    "email_invalid": "Enter a valid email",
+    "address": "Samarkand, Uzbekistan",
+    "schedule": "08:00 - 20:00, Mon-Sun",
+    "schedule_label": "Working hours"
+  },
+  "footer": {
+    "tagline": "Your certified guide to Samarkand and the Silk Road",
+    "quick_links": "Quick Links",
+    "our_tours": "Our Tours",
+    "languages_title": "Languages",
+    "social": "Social Media",
+    "privacy": "Privacy Policy",
+    "made_with": "Made with ❤️ in Samarkand",
+    "copyright": "© 2024 Shohista Guide. Samarkand, Uzbekistan."
+  }
+}
