@@ -39,12 +39,12 @@
       {
         "title": "Individual ekskursiya",
         "description": "Biznes-klass avtomobilida professional gid bilan shaxsiy ekskursiya",
-        "duration": "3–4 soat"
+        "duration": "5 soat"
       },
       {
         "title": "Guruhli ekskursiya",
         "description": "Professional gid va qulay transport bilan guruhlar uchun ekskursiya",
-        "duration": "3–4 soat"
+        "duration": "5 soat"
       },
       {
         "title": "Master-klass: Palov",
@@ -266,7 +266,7 @@
       },
       {
         "question": "Turni qanday bron qilish mumkin?",
-        "answer": "Biz bilan bog'lanish juda oson — qulay usulni tanlang: 📱 WhatsApp yoki Telegram: +998 88 395 41 41 · 📸 Instagram: @shohista_guide · 📧 Email: mukhtarova.shokhista@mail.ru · yoki saytdagi formani to'ldiring. 2 soat ichida javob berib, qulay vaqtni tanlab olamiz."
+        "answer": "Biz bilan bog'lanish juda oson — qulay usulni tanlang: 📱 WhatsApp yoki Telegram: +998 88 395 41 41 · 📸 Instagram: shohista_guide · 📧 Email: mukhtarova.shokhista(at)mail.ru · yoki saytdagi formani to'ldiring. 2 soat ichida javob berib, qulay vaqtni tanlab olamiz."
       },
       {
         "question": "Transport narxga kiritilganmi?",
@@ -320,7 +320,7 @@
     "required": "Majburiy maydon",
     "email_invalid": "To'g'ri email kiriting",
     "address": "Samarqand, O'zbekiston",
-    "schedule": "08:00 - 20:00, Du-Ya",
+    "schedule": "24/7",
     "schedule_label": "Ish vaqti"
   },
   "footer": {

@@ -39,12 +39,12 @@
       {
         "title": "Private Excursion",
         "description": "Personal tour with a professional guide in a business class car at your own pace",
-        "duration": "3–4 hours"
+        "duration": "5 hours"
       },
       {
         "title": "Group Excursion",
         "description": "Exciting tour for groups with a professional guide and comfortable transport",
-        "duration": "3–4 hours"
+        "duration": "5 hours"
       },
       {
         "title": "Master Class: Plov",
@@ -266,7 +266,7 @@
       },
       {
         "question": "How do I book a tour?",
-        "answer": "Reaching us is easy — choose any convenient way: 📱 WhatsApp or Telegram: +998 88 395 41 41 · 📸 Instagram: @shohista_guide · 📧 Email: mukhtarova.shokhista@mail.ru · or fill out the form on the website. We'll reply within 2 hours and arrange the perfect time for your tour."
+        "answer": "Reaching us is easy — choose any convenient way: 📱 WhatsApp or Telegram: +998 88 395 41 41 · 📸 Instagram: shohista_guide · 📧 Email: mukhtarova.shokhista(at)mail.ru · or fill out the form on the website. We'll reply within 2 hours and arrange the perfect time for your tour."
       },
       {
         "question": "Is transport included in the price?",
@@ -320,7 +320,7 @@
     "required": "Required field",
     "email_invalid": "Enter a valid email",
     "address": "Samarkand, Uzbekistan",
-    "schedule": "08:00 - 20:00, Mon-Sun",
+    "schedule": "24/7",
     "schedule_label": "Working hours"
   },
   "footer": {

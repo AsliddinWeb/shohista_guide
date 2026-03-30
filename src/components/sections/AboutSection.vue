@@ -21,7 +21,7 @@ const { t } = useI18n()
             <div class="absolute -bottom-2 -right-2 w-8 h-8 border-b-2 border-r-2 border-gold-400 rounded-br-lg" />
             <div class="rounded-2xl overflow-hidden aspect-[4/5] bg-samarkand-50 dark:bg-gray-800">
               <img
-                src="@/assets/images/about-shohista.jpg"
+                src="@/assets/images/registon.jpg"
                 alt="Shohista - Гид по Самарканду"
                 class="w-full h-full object-cover"
                 loading="lazy"
