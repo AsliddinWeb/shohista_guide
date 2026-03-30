@@ -89,7 +89,7 @@ function scrollToSection(id) {
         <span class="w-px h-4 bg-white/20" />
         <span>5+ лет опыта</span>
         <span class="w-px h-4 bg-white/20" />
-        <span>RU · UZ · EN</span>
+        <span>RU · TR · EN</span>
       </div>
     </div>
 

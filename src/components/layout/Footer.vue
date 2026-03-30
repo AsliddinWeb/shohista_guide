@@ -99,9 +99,9 @@ const tours = [
               {{ t('footer.languages_title') }}
             </h5>
             <div class="flex gap-2">
-              <span class="px-2 py-1 rounded bg-white/10 text-xs text-white/70">РУС</span>
-              <span class="px-2 py-1 rounded bg-white/10 text-xs text-white/70">O'ZB</span>
-              <span class="px-2 py-1 rounded bg-white/10 text-xs text-white/70">ENG</span>
+              <span class="px-2 py-1 rounded bg-white/10 text-xs text-white/70">RU</span>
+              <span class="px-2 py-1 rounded bg-white/10 text-xs text-white/70">TR</span>
+              <span class="px-2 py-1 rounded bg-white/10 text-xs text-white/70">EN</span>
             </div>
           </div>
         </div>

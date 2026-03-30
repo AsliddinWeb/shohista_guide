@@ -23,9 +23,9 @@
     "title": "Gidingiz bilan tanishing",
     "subtitle": "Tarix bo'yicha chuqur bilimlarga ega sertifikatlangan mutaxassis",
     "greeting": "Salom, men Shohista",
-    "description": "Men Samarqand va Shahrisabz bo'ylab sertifikatlangan gidman. Rus, o'zbek va ingliz tillarida gaplashaman. Samarqandning barcha go'zalligini ko'rsataman — ulug'vor Registondan tortib qadimiy shaharning tinch ko'chalarigacha.",
+    "description": "Men Samarqand va Shahrisabz bo'ylab sertifikatlangan gidman. Rus, turk va ingliz tillarida gaplashaman. Samarqandning barcha go'zalligini ko'rsataman — ulug'vor Registondan tortib qadimiy shaharning tinch ko'chalarigacha.",
     "badge_cert": "Gid sertifikati",
-    "badge_lang": "3 til",
+    "badge_lang": "RU · TR · EN",
     "badge_rating": "5 yulduzli reyting",
     "instagram": "Instagramda kuzatish",
     "years": "yillik tajriba",
@@ -78,58 +78,107 @@
     ]
   },
   "tours": {
-    "title": "Mashhur turlar",
-    "subtitle": "Samarqand durdona joylarini kashf eting",
-    "book_tour": "Turni buyurtma berish",
-    "duration": "Davomiyligi",
-    "group": "Guruh",
-    "price_from": "dan",
-    "highlights": "Xususiyatlar",
-    "hours": "soat",
-    "full_day": "To'liq kun",
-    "per_person": "kishidan",
+    "title": "Qayerlarga boramiz",
+    "subtitle": "Samarqand va Shahrisabzning 11 ob'ekti + tabiiy turlar",
+    "book_tour": "Batafsil bilish",
     "items": [
       {
-        "name": "Registon ansambli",
-        "duration": "3 soat",
-        "groupSize": "1-10",
-        "price": "$30",
-        "highlights": ["Uchta ajoyib madrasa", "Temuriylar davri tarixi", "Eng yaxshi foto nuqtalar"]
+        "name": "«Go'ri Amir» maqbarasi",
+        "tag": "1-kun · 1-ob'ekt",
+        "duration": "1–2 soat",
+        "groupSize": "1–15 kishi",
+        "highlights": ["Amir Temur maqbarasi", "XIV asr ko'k gumbaz", "Naqsh va o'ymakor ganchlar"]
       },
       {
-        "name": "Shohizinda",
-        "duration": "2 soat",
-        "groupSize": "1-10",
-        "price": "$25",
-        "highlights": ["9-14 asr nekropoli", "Noyob mozaika", "Ma'naviy joy"]
+        "name": "«Registon» maydoni",
+        "tag": "1-kun · 2-ob'ekt",
+        "duration": "1–2 soat",
+        "groupSize": "1–15 kishi",
+        "highlights": ["XIV–XVII asr uch madrasa", "Samarqandning bosh maydoni", "Kechki yoritish"]
       },
       {
-        "name": "Bibixonim masjidi",
-        "duration": "1.5 soat",
-        "groupSize": "1-10",
-        "price": "$20",
-        "highlights": ["Markaziy Osiyoning eng yirik masjidi", "Temur tarixi", "Me'moriy tafsilotlar"]
+        "name": "«Bibixonim» masjidi",
+        "tag": "1-kun · 3-ob'ekt",
+        "duration": "1 soat",
+        "groupSize": "1–15 kishi",
+        "highlights": ["O'rta Osiyoning eng yirik masjidlaridan", "Temur farmoni bilan qurilgan", "Monumental darvoza"]
       },
       {
-        "name": "Go'ri Amir maqbarasi",
-        "duration": "1.5 soat",
-        "groupSize": "1-10",
-        "price": "$20",
-        "highlights": ["Temur qabri", "Ko'k gumbaz", "Temuriylar san'ati"]
+        "name": "«Shohizinda» nekropoli",
+        "tag": "1-kun · 4-ob'ekt",
+        "duration": "1–2 soat",
+        "groupSize": "1–15 kishi",
+        "highlights": ["XI–XV asr nekropoli", "Hashamatli maqbaralar ko'chasi", "Ajoyib ko'k mozaika"]
       },
       {
-        "name": "Afrosiyob muzeyi",
-        "duration": "2 soat",
-        "groupSize": "1-10",
-        "price": "$25",
-        "highlights": ["Qadimiy Samarqand", "VII asrning noyob freskalari", "So'g'd sivilizatsiyasi"]
+        "name": "«Konigil» hunarmandlar qishlog'i",
+        "tag": "1-kun · 5-ob'ekt",
+        "duration": "1 soat",
+        "groupSize": "1–15 kishi",
+        "highlights": ["Samarqand qog'ozini tiklanishi", "Qadimiy hunarmandchilik", "Joyida master-klasslar"]
       },
       {
-        "name": "Shahrisabz — Oq Saroy",
+        "name": "Siyob bozori",
+        "tag": "1-kun · 6-ob'ekt",
+        "duration": "1 soat",
+        "groupSize": "1–15 kishi",
+        "highlights": ["Samarqandning eng qadimiy bozorlaridan biri", "Ziravorlar, quritilgan mevalar, o'zbek shirinliklari", "Sharq bozorining jonli rangi"]
+      },
+      {
+        "name": "«Xujum» gilam ustaxonasi",
+        "tag": "2-kun · 1-ob'ekt",
+        "duration": "1 soat",
+        "groupSize": "1–15 kishi",
+        "highlights": ["An'anaviy o'zbek gilamlari", "Qo'lda ishlangan", "Noyob naqshlar"]
+      },
+      {
+        "name": "Muqaddas Doniyor maqbarasi",
+        "tag": "2-kun · 2-ob'ekt",
+        "duration": "1 soat",
+        "groupSize": "1–15 kishi",
+        "highlights": ["Uch din muqaddas joyi", "Islom, nasroniylik, yahudiylik", "Muqaddas buloq"]
+      },
+      {
+        "name": "Mirzo Ulug'bek rasadxonasi",
+        "tag": "2-kun · 3-ob'ekt",
+        "duration": "1 soat",
+        "groupSize": "1–15 kishi",
+        "highlights": ["XV asr ilmiy markazi", "1018 yulduz katalogi", "Astronomiya muzeyi"]
+      },
+      {
+        "name": "«Xazrat Xizr» masjidi",
+        "tag": "2-kun · 4-ob'ekt",
+        "duration": "45 daqiqa",
+        "groupSize": "1–15 kishi",
+        "highlights": ["Xizr payg'ambarga bag'ishlangan", "Suv va yo'lovchilar homiysi", "Samarqand panoramasi"]
+      },
+      {
+        "name": "«Abadiy shahar»",
+        "tag": "2-kun · 5-ob'ekt",
+        "duration": "1–2 soat",
+        "groupSize": "1–15 kishi",
+        "highlights": ["Tarixiy turistik majmua", "Boy madaniy meros", "Yorqin kechki yoritish"]
+      },
+      {
+        "name": "Shahrisabz shahri",
+        "tag": "3-kun · Shahrisabz",
         "duration": "To'liq kun",
-        "groupSize": "1-10",
-        "price": "$45",
-        "highlights": ["Temur vatani", "Oq Saroy saroyi", "Do'rut-Tilovot maqbarasi"]
+        "groupSize": "1–15 kishi",
+        "highlights": ["Temurning Oq Saroyi", "Ko'k Gumbaz masjidi", "Tog' dovoni panoramalari", "Tandirda pishirilgan go'sht"]
+      },
+      {
+        "name": "Zomin — O'zbek Shveytsariyasi",
+        "tag": "Tabiiy tur",
+        "duration": "To'liq kun",
+        "groupSize": "1–15 kishi",
+        "highlights": ["Jarlik ustidagi shisha ko'prik", "Bulutlarga kanatli yo'l", "Zomin suv ombori", "Qozon-patir — qadimiy retsept bo'yicha non"]
+      },
+      {
+        "name": "Zomin + Yetti ko'l",
+        "tag": "Tabiiy tur",
+        "duration": "To'liq kun",
+        "groupSize": "1–15 kishi",
+        "highlights": ["Yetti go'zal tog' ko'li", "Tiniq tog' suvi", "Tegrilmagan tog' tabiati", "Trekking va tog' marshrutlari"]
       }
     ]
   },
@@ -143,7 +192,7 @@
       },
       {
         "title": "3 tilda xizmat",
-        "description": "Qulayligingiz uchun rus, o'zbek va ingliz tillarida ekskursiyalar"
+        "description": "Qulayligingiz uchun rus, turk va ingliz tillarida ekskursiyalar"
       },
       {
         "title": "Individual yondashuv",
@@ -222,7 +271,7 @@
     "items": [
       {
         "question": "Ekskursiyalar qaysi tillarda o'tkaziladi?",
-        "answer": "Men ekskursiyalarni rus, o'zbek va ingliz tillarida o'tkazaman. Har bir mehmon uchun eng qulay muloqot variantini tanlaymiz."
+        "answer": "Men ekskursiyalarni rus, turk va ingliz tillarida o'tkazaman. Har bir mehmon uchun eng qulay muloqot variantini tanlaymiz."
       },
       {
         "question": "Turni qanday bron qilish mumkin?",

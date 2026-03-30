@@ -23,9 +23,9 @@
     "title": "Meet Your Guide",
     "subtitle": "Certified specialist with deep knowledge of history",
     "greeting": "Hi, I'm Shohista",
-    "description": "I'm a certified guide for Samarkand and Shahrisabz. I speak Russian, Uzbek, and English. I'll show you all the beauty of Samarkand — from the majestic Registan to the quiet alleyways of the old city. Every tour is a living history of the Great Silk Road.",
+    "description": "I'm a certified guide for Samarkand and Shahrisabz. I speak Russian, Turkish, and English. I'll show you all the beauty of Samarkand — from the majestic Registan to the quiet alleyways of the old city. Every tour is a living history of the Great Silk Road.",
     "badge_cert": "Guide Certificate",
-    "badge_lang": "3 Languages",
+    "badge_lang": "RU · TR · EN",
     "badge_rating": "5-Star Rating",
     "instagram": "Follow on Instagram",
     "years": "years experience",
@@ -78,58 +78,107 @@
     ]
   },
   "tours": {
-    "title": "Popular Tours",
-    "subtitle": "Discover the gems of Samarkand",
-    "book_tour": "Book This Tour",
-    "duration": "Duration",
-    "group": "Group",
-    "price_from": "from",
-    "highlights": "Highlights",
-    "hours": "hours",
-    "full_day": "Full Day",
-    "per_person": "per person",
+    "title": "Where We Go",
+    "subtitle": "11 landmarks of Samarkand & Shahrisabz + nature tours",
+    "book_tour": "Learn More",
     "items": [
       {
-        "name": "Registan Ensemble",
-        "duration": "3 hours",
-        "groupSize": "1-10",
-        "price": "$30",
-        "highlights": ["Three magnificent madrasahs", "Timurid era history", "Best photo spots"]
+        "name": "Gur-e-Amir Mausoleum",
+        "tag": "Day 1 · Stop 1",
+        "duration": "1–2 hours",
+        "groupSize": "1–15 pax",
+        "highlights": ["Tomb of Amir Timur", "14th-century blue dome", "Mosaic & carved ghanch"]
       },
       {
-        "name": "Shah-i-Zinda",
-        "duration": "2 hours",
-        "groupSize": "1-10",
-        "price": "$25",
-        "highlights": ["9th-14th century necropolis", "Unique mosaics", "Spiritual place"]
+        "name": "Registan Square",
+        "tag": "Day 1 · Stop 2",
+        "duration": "1–2 hours",
+        "groupSize": "1–15 pax",
+        "highlights": ["Three madrasahs XIV–XVII c.", "Main square of Samarkand", "Stunning night illumination"]
       },
       {
         "name": "Bibi-Khanym Mosque",
-        "duration": "1.5 hours",
-        "groupSize": "1-10",
-        "price": "$20",
-        "highlights": ["Largest mosque in Central Asia", "History of Tamerlane", "Architectural details"]
+        "tag": "Day 1 · Stop 3",
+        "duration": "1 hour",
+        "groupSize": "1–15 pax",
+        "highlights": ["One of Central Asia's largest mosques", "Built by order of Tamerlane", "Monumental portal"]
       },
       {
-        "name": "Gur-e-Amir Mausoleum",
-        "duration": "1.5 hours",
-        "groupSize": "1-10",
-        "price": "$20",
-        "highlights": ["Tomb of Tamerlane", "Turquoise dome", "Timurid art"]
+        "name": "Shah-i-Zinda Necropolis",
+        "tag": "Day 1 · Stop 4",
+        "duration": "1–2 hours",
+        "groupSize": "1–15 pax",
+        "highlights": ["Necropolis of the 11th–15th centuries", "Avenue of magnificent mausoleums", "Stunning blue mosaic"]
       },
       {
-        "name": "Afrasiab Museum",
-        "duration": "2 hours",
-        "groupSize": "1-10",
-        "price": "$25",
-        "highlights": ["Ancient Samarkand", "Unique 7th century frescoes", "Sogdian civilization"]
+        "name": "Konigil Craft Village",
+        "tag": "Day 1 · Stop 5",
+        "duration": "1 hour",
+        "groupSize": "1–15 pax",
+        "highlights": ["Revival of Samarkand paper", "Ancient craft traditions", "On-site master classes"]
       },
       {
-        "name": "Shahrisabz — Ak-Saray",
+        "name": "Siyob Bazaar",
+        "tag": "Day 1 · Stop 6",
+        "duration": "1 hour",
+        "groupSize": "1–15 pax",
+        "highlights": ["One of Samarkand's oldest markets", "Spices, dried fruits, Uzbek sweets", "Vibrant atmosphere of an Eastern bazaar"]
+      },
+      {
+        "name": "Khujum Carpet Workshop",
+        "tag": "Day 2 · Stop 1",
+        "duration": "1 hour",
+        "groupSize": "1–15 pax",
+        "highlights": ["Traditional Uzbek carpets", "Fully hand-crafted", "Unique ornamental patterns"]
+      },
+      {
+        "name": "Mausoleum of St. Daniel",
+        "tag": "Day 2 · Stop 2",
+        "duration": "1 hour",
+        "groupSize": "1–15 pax",
+        "highlights": ["Sacred site of three religions", "Islam, Christianity, Judaism", "Holy spring"]
+      },
+      {
+        "name": "Ulugbek Observatory",
+        "tag": "Day 2 · Stop 3",
+        "duration": "1 hour",
+        "groupSize": "1–15 pax",
+        "highlights": ["Outstanding 15th-century science center", "Star catalogue of 1018 stars", "Astronomy museum"]
+      },
+      {
+        "name": "Khazrat Khyzr Mosque",
+        "tag": "Day 2 · Stop 4",
+        "duration": "45 min",
+        "groupSize": "1–15 pax",
+        "highlights": ["Dedicated to Prophet Khyzr", "Patron of water and travelers", "Panoramic view of Samarkand"]
+      },
+      {
+        "name": "\"Eternal City\" Complex",
+        "tag": "Day 2 · Stop 5",
+        "duration": "1–2 hours",
+        "groupSize": "1–15 pax",
+        "highlights": ["Historic tourism complex", "Rich cultural heritage", "Vibrant evening lighting"]
+      },
+      {
+        "name": "Shahrisabz City",
+        "tag": "Day 3 · Shahrisabz",
         "duration": "Full Day",
-        "groupSize": "1-10",
-        "price": "$45",
-        "highlights": ["Birthplace of Tamerlane", "Ak-Saray Palace", "Dorus-Tilovat Mausoleum"]
+        "groupSize": "1–15 pax",
+        "highlights": ["Ak-Saray Palace of Tamerlane", "Kok-Gumbaz Mosque", "Mountain pass panoramas", "Tandoor-grilled meat on the way"]
+      },
+      {
+        "name": "Zaamin — Uzbek Switzerland",
+        "tag": "Nature Tour",
+        "duration": "Full Day",
+        "groupSize": "1–15 pax",
+        "highlights": ["Glass suspension bridge over a gorge", "Cable car to the clouds", "Zaamin reservoir", "Kazan-patir flatbread by ancient recipe"]
+      },
+      {
+        "name": "Zaamin + Seven Lakes",
+        "tag": "Nature Tour",
+        "duration": "Full Day",
+        "groupSize": "1–15 pax",
+        "highlights": ["Seven scenic mountain lakes", "Crystal-clear mountain water", "Pristine mountain nature", "Trekking & mountain trails"]
       }
     ]
   },
@@ -143,7 +192,7 @@
       },
       {
         "title": "3 Languages",
-        "description": "Tours in Russian, Uzbek, and English for your comfort"
+        "description": "Tours in Russian, Turkish, and English for your comfort"
       },
       {
         "title": "Individual Approach",
@@ -222,7 +271,7 @@
     "items": [
       {
         "question": "What languages do you conduct tours in?",
-        "answer": "I conduct tours in Russian, Uzbek, and English. We'll find the most comfortable communication option for each guest."
+        "answer": "I conduct tours in Russian, Turkish, and English. We'll find the most comfortable communication option for each guest."
       },
       {
         "question": "How do I book a tour?",

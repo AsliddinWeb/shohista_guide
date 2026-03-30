@@ -6,17 +6,25 @@ import { Navigation, Pagination, Autoplay } from 'swiper/modules'
 import SectionHeading from '@/components/ui/SectionHeading.vue'
 import TourCard from '@/components/ui/TourCard.vue'
 
-import tour1 from '@/assets/images/tours/registan.jpg'
-import tour2 from '@/assets/images/tours/shahizinda.jpg'
-import tour3 from '@/assets/images/tours/bibikhanym.jpg'
-import tour4 from '@/assets/images/tours/guremir.jpg'
-import tour5 from '@/assets/images/tours/afrasiab.jpg'
-import tour6 from '@/assets/images/tours/shahrisabz.jpg'
+import img1  from '@/assets/images/tours/guremir.jpg'
+import img2  from '@/assets/images/tours/registan.jpg'
+import img3  from '@/assets/images/tours/bibikhanym.jpg'
+import img4  from '@/assets/images/tours/shahizinda.jpg'
+import img5  from '@/assets/images/tours/konigil.jpg'
+import img6  from '@/assets/images/tours/siyob-bazaar.jpg'
+import img7  from '@/assets/images/tours/khujum.jpg'
+import img8  from '@/assets/images/tours/st-daniel.jpg'
+import img9  from '@/assets/images/tours/ulugbek.jpg'
+import img10 from '@/assets/images/tours/khazrat-khyzr.jpg'
+import img11 from '@/assets/images/tours/eternal-city.jpg'
+import img12 from '@/assets/images/tours/shahrisabz.jpg'
+import img13 from '@/assets/images/tours/zaamin.jpg'
+import img14 from '@/assets/images/tours/zaamin-7lakes.jpg'
 
 const { t, tm, rt } = useI18n()
 const router = useRouter()
 
-const tourImages = [tour1, tour2, tour3, tour4, tour5, tour6]
+const tourImages = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14]
 const modules = [Navigation, Pagination, Autoplay]
 
 function handleBook() {
@@ -55,9 +63,9 @@ function handleBook() {
             <TourCard
               :image="tourImages[i]"
               :name="rt(tour.name)"
+              :tag="rt(tour.tag)"
               :duration="rt(tour.duration)"
               :group-size="rt(tour.groupSize)"
-              :price="rt(tour.price)"
               :highlights="tour.highlights.map(h => rt(h))"
               @book="handleBook"
             />

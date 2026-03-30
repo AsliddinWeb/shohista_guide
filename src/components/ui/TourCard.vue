@@ -1,17 +1,16 @@
 <script setup>
-import { Clock, Users, DollarSign, Star } from 'lucide-vue-next'
+import { Clock, Users, Star } from 'lucide-vue-next'
 import { useI18n } from 'vue-i18n'
 
-const { t } = useI18n({ useScope: 'global' })
+useI18n({ useScope: 'global' })
 
 defineProps({
-  image: { type: String, default: '' },
-  name: { type: String, required: true },
-  duration: { type: String, required: true },
-  groupSize: { type: String, default: '1-10' },
-  price: { type: String, required: true },
-  highlights: { type: Array, default: () => [] },
-  slug: { type: String, default: '' },
+  image:     { type: String, default: '' },
+  name:      { type: String, required: true },
+  tag:       { type: String, default: '' },
+  duration:  { type: String, required: true },
+  groupSize: { type: String, default: '1–15 чел' },
+  highlights:{ type: Array, default: () => [] },
 })
 
 const emit = defineEmits(['book'])
@@ -20,7 +19,7 @@ const emit = defineEmits(['book'])
 <template>
   <div class="card overflow-hidden group h-full flex flex-col">
     <!-- Image -->
-    <div class="relative h-52 overflow-hidden bg-samarkand-100">
+    <div class="relative h-52 overflow-hidden bg-samarkand-100 dark:bg-gray-800">
       <img
         v-if="image"
         :src="image"
@@ -29,9 +28,9 @@ const emit = defineEmits(['book'])
         loading="lazy"
       />
       <div v-else class="w-full h-full shimmer" />
-      <!-- Price badge -->
-      <div class="absolute top-3 right-3 bg-gold-400 text-samarkand-950 text-sm font-bold px-3 py-1 rounded-full shadow-md">
-        {{ $t('tours.price_from') }} {{ price }}
+      <!-- Day / category badge -->
+      <div v-if="tag" class="absolute top-3 left-3 bg-samarkand-950/80 backdrop-blur-sm text-gold-300 text-xs font-semibold px-3 py-1 rounded-full">
+        {{ tag }}
       </div>
     </div>
 
@@ -67,7 +66,7 @@ const emit = defineEmits(['book'])
 
       <!-- CTA -->
       <button
-        @click="emit('book', { name, price })"
+        @click="emit('book', { name })"
         class="btn-primary w-full justify-center mt-auto"
       >
         {{ $t('tours.book_tour') }}
