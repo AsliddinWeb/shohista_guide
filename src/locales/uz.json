@@ -34,45 +34,36 @@
   "services": {
     "title": "Bizning xizmatlar",
     "subtitle": "Professional gidlar, haydovchilar va master-klasslar",
-    "from": "dan",
-    "per_person": "/kishi",
-    "book_now": "Buyurtma berish",
+    "book_now": "Batafsil bilish",
     "items": [
       {
         "title": "Individual ekskursiya",
         "description": "Biznes-klass avtomobilida professional gid bilan shaxsiy ekskursiya",
-        "price": "$30",
-        "duration": "3-4 soat"
+        "duration": "3–4 soat"
       },
       {
         "title": "Guruhli ekskursiya",
         "description": "Professional gid va qulay transport bilan guruhlar uchun ekskursiya",
-        "price": "$15",
-        "duration": "3-4 soat",
-        "note": "/kishi"
+        "duration": "3–4 soat"
       },
       {
         "title": "Master-klass: Palov",
         "description": "Haqiqiy o'zbek palovi tayyorlash bo'yicha master-klass — mahalliy ustalardan sirlar",
-        "price": "$25",
-        "duration": "2-3 soat"
+        "duration": "2–3 soat"
       },
       {
         "title": "Master-klass: Samsa va Non",
         "description": "An'anaviy samsa va o'zbek nonini yasashni o'rganing",
-        "price": "$20",
-        "duration": "1.5-2 soat"
+        "duration": "1.5–2 soat"
       },
       {
         "title": "Shahrisabzga tur",
         "description": "Amir Temur vatani Shahrisabzga bir kunlik sayohat. Biznes-klass avto",
-        "price": "$40",
         "duration": "to'liq kun"
       },
       {
         "title": "Transfer + Gid",
         "description": "Aeroport yoki vokzalda kutib olish va biznes-klass avtomobilida ekskursiya",
-        "price": "$20",
         "duration": "so'rovga ko'ra"
       }
     ]
@@ -291,7 +282,7 @@
       },
       {
         "question": "To'lov qanday amalga oshiriladi?",
-        "answer": "To'lov naqd pul (USD yoki UZS) yoki o'tkazma orqali qabul qilinadi. Yashirin komissiyalar yo'q."
+        "answer": "To'lov naqd pul (USD yoki UZS) yoki o'tkazma orqali qabul qilinadi. Tur narxi bron qilishda individual kelishiladi — yashirin komissiyalar yo'q."
       },
       {
         "question": "Bolalar uchun chegirmalar bormi?",

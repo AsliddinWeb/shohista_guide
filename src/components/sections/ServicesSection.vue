@@ -36,7 +36,6 @@ function handleBook() {
           :icon="icons[i]"
           :title="rt(service.title)"
           :description="rt(service.description)"
-          :price="rt(service.price)"
           :duration="rt(service.duration)"
           :note="service.note ? rt(service.note) : ''"
           @book="handleBook"

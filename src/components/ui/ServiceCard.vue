@@ -1,16 +1,12 @@
 <script setup>
-import { ArrowRight } from 'lucide-vue-next'
-import { useI18n } from 'vue-i18n'
-
-const { t } = useI18n()
+import { ArrowRight, Clock } from 'lucide-vue-next'
 
 defineProps({
-  icon: { type: [Object, Function], required: true },
-  title: { type: String, required: true },
+  icon:        { type: [Object, Function], required: true },
+  title:       { type: String, required: true },
   description: { type: String, required: true },
-  price: { type: String, required: true },
-  duration: { type: String, default: '' },
-  note: { type: String, default: '' },
+  duration:    { type: String, default: '' },
+  note:        { type: String, default: '' },
 })
 
 const emit = defineEmits(['book'])
@@ -33,11 +29,11 @@ const emit = defineEmits(['book'])
     <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed mb-4">{{ description }}</p>
 
     <div class="flex items-center justify-between mt-auto pt-3 border-t border-gray-100 dark:border-gray-700">
-      <div>
-        <span class="text-xs text-gray-400">{{ $t('services.from') }} </span>
-        <span class="text-lg font-bold text-gold-500">{{ price }}</span>
-        <span v-if="note" class="text-xs text-gray-400">{{ note }}</span>
+      <div v-if="duration" class="flex items-center gap-1.5 text-sm text-gray-400">
+        <Clock :size="14" class="text-gold-400" />
+        {{ duration }}
       </div>
+      <div v-else />
       <button class="w-9 h-9 rounded-full bg-gold-400/10 group-hover:bg-gold-400
                      flex items-center justify-center transition-all duration-300">
         <ArrowRight :size="16" class="text-gold-500 group-hover:text-samarkand-950 transition-colors" />

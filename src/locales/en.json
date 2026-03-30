@@ -34,45 +34,36 @@
   "services": {
     "title": "Our Services",
     "subtitle": "Professional guides, drivers and cooking master classes",
-    "from": "from",
-    "per_person": "/person",
-    "book_now": "Book Now",
+    "book_now": "Learn More",
     "items": [
       {
         "title": "Private Excursion",
         "description": "Personal tour with a professional guide in a business class car at your own pace",
-        "price": "$30",
-        "duration": "3-4 hours"
+        "duration": "3–4 hours"
       },
       {
         "title": "Group Excursion",
         "description": "Exciting tour for groups with a professional guide and comfortable transport",
-        "price": "$15",
-        "duration": "3-4 hours",
-        "note": "/person"
+        "duration": "3–4 hours"
       },
       {
         "title": "Master Class: Plov",
         "description": "Cooking master class for authentic Uzbek plov — secrets from local masters",
-        "price": "$25",
-        "duration": "2-3 hours"
+        "duration": "2–3 hours"
       },
       {
         "title": "Master Class: Samsa & Bread",
         "description": "Learn to make traditional samsa and Uzbek flatbread in a cozy atmosphere",
-        "price": "$20",
-        "duration": "1.5-2 hours"
+        "duration": "1.5–2 hours"
       },
       {
         "title": "Shahrisabz Day Trip",
         "description": "One-day trip to ancient Shahrisabz — birthplace of Tamerlane. Business class car",
-        "price": "$40",
         "duration": "full day"
       },
       {
         "title": "Transfer + Guide",
         "description": "Airport or station pickup with a city tour in a business class car",
-        "price": "$20",
         "duration": "on request"
       }
     ]
@@ -291,7 +282,7 @@
       },
       {
         "question": "How does payment work?",
-        "answer": "Payment is accepted in cash (USD or UZS) or by transfer. No hidden fees — the price you see is the final price."
+        "answer": "Payment is accepted in cash (USD or UZS) or by transfer. Tour pricing is agreed individually at the time of booking — no hidden fees."
       },
       {
         "question": "Are there discounts for children?",
