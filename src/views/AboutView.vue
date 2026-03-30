@@ -22,7 +22,7 @@ useSEO({
   <div class="min-h-screen">
     <NavBar />
     <!-- Page Hero -->
-    <section class="pt-24 pb-12 bg-gradient-to-br from-samarkand-950 to-samarkand-900 text-white relative overflow-hidden">
+    <section class="pt-20 sm:pt-24 pb-8 sm:pb-12 bg-gradient-to-br from-samarkand-950 to-samarkand-900 text-white relative overflow-hidden">
       <div class="absolute inset-0 opacity-5"
         style="background-image: url('/src/assets/icons/islamic-pattern.svg'); background-size: 80px 80px;" />
       <div class="absolute bottom-0 inset-x-0 h-1 bg-gradient-to-r from-transparent via-gold-400 to-transparent" />
