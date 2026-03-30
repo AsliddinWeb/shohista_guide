@@ -7,15 +7,9 @@ import AboutSection from '@/components/sections/AboutSection.vue'
 import StatsSection from '@/components/sections/StatsSection.vue'
 import TestimonialsSection from '@/components/sections/TestimonialsSection.vue'
 
-const { t } = useI18n()
+const { t, locale } = useI18n()
 
-useSEO({
-  title: 'О нас — Shohista Guide | Гид по Самарканду',
-  description: 'Познакомьтесь с Шохистой — сертифицированным гидом по Самарканду и Шахрисабзу. Обслуживание на русском, узбекском и английском языках.',
-  keywords: 'Шохиста гид, о нас Самарканд, сертифицированный гид Узбекистан',
-  image: 'https://shohista-guide.uz/og-image.jpg',
-  url: 'https://shohista-guide.uz/#/about',
-})
+useSEO({ page: 'about', locale, url: 'https://shohista-guide.uz/about' })
 </script>
 
 <template>

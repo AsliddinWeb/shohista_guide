@@ -16,13 +16,7 @@ import ContactSection from '@/components/sections/ContactSection.vue'
 
 const { locale } = useI18n()
 
-useSEO({
-  title: 'Shohista Guide | Гид по Самарканду | Samarkand Tour Guide',
-  description: 'Сертифицированный гид по Самарканду и Шахрисабзу. Регистан, Шахи-Зинда, Биби-Ханым — экскурсии на русском, узбекском и английском языках. Индивидуальные и групповые туры.',
-  keywords: 'гид Самарканд, Samarkand tour guide, экскурсии Самарканд, Регистан тур, Шахрисабз экскурсия, гид Узбекистан, Shohista Guide, туризм Самарканд, Шёлковый путь тур',
-  image: 'https://shohista-guide.uz/og-image.jpg',
-  url: 'https://shohista-guide.uz',
-})
+useSEO({ page: 'home', locale, url: 'https://shohista-guide.uz' })
 </script>
 
 <template>

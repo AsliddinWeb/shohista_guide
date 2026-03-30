@@ -22,17 +22,11 @@ import img12 from '@/assets/images/tours/shahrisabz.jpg'
 import img13 from '@/assets/images/tours/zamin.png'
 import img14 from '@/assets/images/tours/zamin-7lakes.png'
 
-const { t, tm, rt } = useI18n()
+const { t, tm, rt, locale } = useI18n()
 const router = useRouter()
 const tourImages = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14]
 
-useSEO({
-  title: 'Туры по Самарканду | Shohista Guide',
-  description: 'Все экскурсии по Самарканду и Шахрисабзу. Регистан, Шахи-Зинда, Биби-Ханым, Гур-Эмир, Сиёб базар, Конигил, Заамин. Индивидуальные и групповые туры.',
-  keywords: 'туры Самарканд, Регистан, Шахи-Зинда, Шахрисабз, Заамин тур, Сиёб базар',
-  image: 'https://shohista-guide.uz/og-image.jpg',
-  url: 'https://shohista-guide.uz/#/tours',
-})
+useSEO({ page: 'tours', locale, url: 'https://shohista-guide.uz/tours' })
 </script>
 
 <template>

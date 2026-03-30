@@ -5,15 +5,9 @@ import NavBar from '@/components/layout/NavBar.vue'
 import Footer from '@/components/layout/Footer.vue'
 import GallerySection from '@/components/sections/GallerySection.vue'
 
-const { t } = useI18n()
+const { t, locale } = useI18n()
 
-useSEO({
-  title: 'Галерея — Shohista Guide | Фотографии Самарканда',
-  description: 'Фотографии туров по Самарканду — Регистан, Шахи-Зинда, Биби-Ханым и другие достопримечательности.',
-  keywords: 'фото Самарканд, галерея Регистан, Шахи-Зинда фото, туры фотографии',
-  image: 'https://shohista-guide.uz/og-image.jpg',
-  url: 'https://shohista-guide.uz/#/gallery',
-})
+useSEO({ page: 'gallery', locale, url: 'https://shohista-guide.uz/gallery' })
 </script>
 
 <template>

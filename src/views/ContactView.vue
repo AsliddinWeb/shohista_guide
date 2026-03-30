@@ -6,15 +6,9 @@ import Footer from '@/components/layout/Footer.vue'
 import ContactSection from '@/components/sections/ContactSection.vue'
 import FaqSection from '@/components/sections/FaqSection.vue'
 
-const { t } = useI18n()
+const { t, locale } = useI18n()
 
-useSEO({
-  title: 'Контакты — Забронировать тур | Shohista Guide',
-  description: 'Забронируйте тур по Самарканду. Оставьте заявку и мы свяжемся в течение 2 часов. Индивидуальные и групповые туры.',
-  keywords: 'забронировать тур Самарканд, контакты гид Самарканд, заявка тур Узбекистан',
-  image: 'https://shohista-guide.uz/og-image.jpg',
-  url: 'https://shohista-guide.uz/#/contact',
-})
+useSEO({ page: 'contact', locale, url: 'https://shohista-guide.uz/contact' })
 </script>
 
 <template>
