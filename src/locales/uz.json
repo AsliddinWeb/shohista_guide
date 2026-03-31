@@ -23,7 +23,7 @@
     "title": "Gidingiz bilan tanishing",
     "subtitle": "Tarix bo'yicha chuqur bilimlarga ega sertifikatlangan mutaxassis",
     "greeting": "Salom, men Shohista",
-    "description": "Men Samarqand va Shahrisabz bo'ylab sertifikatlangan gidman. Rus, turk va ingliz tillarida gaplashaman. Samarqandning barcha go'zalligini ko'rsataman — ulug'vor Registondan tortib qadimiy shaharning tinch ko'chalarigacha.",
+    "description": "Men Samarqand va Shahrisabz bo'ylab sertifikatlangan gidman. Ekskursiyalar tashkilotchisiman — jamoamda rus, ingliz, turk va fransuz tillarida ishlaydigan professional gidlar bor. Samarqandning barcha go'zalligini ko'rsatamiz — ulug'vor Registondan tortib qadimiy shaharning tinch ko'chalarigacha. Har bir tur — Buyuk Ipak yo'lining tirik tarixi.",
     "badge_cert": "Gid sertifikati",
     "badge_lang": "RU · TR · EN",
     "badge_rating": "5 yulduzli reyting",
@@ -160,16 +160,18 @@
       {
         "name": "Zomin — O'zbek Shveytsariyasi",
         "tag": "Tabiiy tur",
+        "description": "Zomin — «O'zbek Shveytsariyasi» deb ataladigan daxlsiz tabiat o'lkasi. Toglarning orom va tozaligida hordiq chiqarish uchun ideal sayohat!",
         "duration": "To'liq kun",
         "groupSize": "1–15 kishi",
-        "highlights": ["Jarlik ustidagi shisha ko'prik", "Bulutlarga kanatli yo'l", "Zomin suv ombori", "Qozon-patir — qadimiy retsept bo'yicha non"]
+        "highlights": ["Osilma shisha ko'prik — jarlik ustida hayajonli his", "Kanat yo'li — tog' panoramasi balandlikdan", "Zomin suv ombori — qoyalar orasidagi ko'k go'zallik", "Qozon-patir qadimiy retsept bo'yicha"]
       },
       {
-        "name": "Zomin + Yetti ko'l",
+        "name": "Yetti ko'l — Fan tog'lari",
         "tag": "Tabiiy tur",
+        "description": "Yetti ko'l — Tojikistonning Fan tog'lari qalbiga sayohat, har bir ko'l rangini ko'k-binafsha tusiga o'zgartiradi. Tojikiston o'ylaganingizdan ham yaqin!",
         "duration": "To'liq kun",
         "groupSize": "1–15 kishi",
-        "highlights": ["Yetti go'zal tog' ko'li", "Tiniq tog' suvi", "Tegrilmagan tog' tabiati", "Trekking va tog' marshrutlari"]
+        "highlights": ["Yetti ko'lning barchasini ko'rish va rang sehrini his qilish", "Har bir ko'lning afsonalari va tarixi", "Toglli qishloqlarda hayot bilan tanishish", "Fan tog'larining panoramalari"]
       }
     ]
   },
@@ -285,10 +287,6 @@
         "answer": "To'lov naqd pul (USD yoki UZS) yoki o'tkazma orqali qabul qilinadi. Tur narxi bron qilishda individual kelishiladi — yashirin komissiyalar yo'q."
       },
       {
-        "question": "Bolalar uchun chegirmalar bormi?",
-        "answer": "Ha! 6 yoshgacha bolalar — bepul, 6 dan 12 yoshgacha — 50% chegirma. Bron qilishda tafsilotlarni aniqlashtirib oling."
-      },
-      {
         "question": "Samarqand bo'ylab umumiy ekskursiya qancha vaqt davom etadi?",
         "answer": "Asosiy diqqatga sazovor joylar bo'ylab standart umumiy ekskursiya 4-5 soat davom etadi."
       },
@@ -331,6 +329,6 @@
     "social": "Ijtimoiy tarmoqlar",
     "privacy": "Maxfiylik siyosati",
     "made_with": "❤️ bilan Samarqandda yasaldi",
-    "copyright": "© 2026 Shohista Guide. Samarqand, O'zbekiston."
+    "copyright": "© 2026 AsiMir Tour & Guide. Samarqand, O'zbekiston."
   }
 }

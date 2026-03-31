@@ -23,7 +23,7 @@
     "title": "Meet Your Guide",
     "subtitle": "Certified specialist with deep knowledge of history",
     "greeting": "Hi, I'm Shohista",
-    "description": "I'm a certified guide for Samarkand and Shahrisabz. I speak Russian, Turkish, and English. I'll show you all the beauty of Samarkand — from the majestic Registan to the quiet alleyways of the old city. Every tour is a living history of the Great Silk Road.",
+    "description": "I'm a certified guide for Samarkand and Shahrisabz. I am a tour organiser — my team includes professional guides in Russian, English, Turkish and French. We'll show you all the beauty of Samarkand — from the majestic Registan to the quiet alleyways of the old city. Every tour is a living history of the Great Silk Road.",
     "badge_cert": "Guide Certificate",
     "badge_lang": "RU · TR · EN",
     "badge_rating": "5-Star Rating",
@@ -160,16 +160,18 @@
       {
         "name": "Zaamin — Uzbek Switzerland",
         "tag": "Nature Tour",
+        "description": "Zaamin is a land of pristine nature, known as the 'Swiss Alps of Uzbekistan'. The perfect trip to recharge and enjoy the silence of the mountains!",
         "duration": "Full Day",
         "groupSize": "1–15 pax",
-        "highlights": ["Glass suspension bridge over a gorge", "Cable car to the clouds", "Zaamin reservoir", "Kazan-patir flatbread by ancient recipe"]
+        "highlights": ["Glass suspension bridge — thrilling emotions over the canyon", "Cable car — panoramic mountain views from above", "Zaamin Reservoir — turquoise beauty among the cliffs", "Kazan-patir flatbread from ancient recipes"]
       },
       {
-        "name": "Zaamin + Seven Lakes",
+        "name": "Seven Lakes — Fann Mountains",
         "tag": "Nature Tour",
+        "description": "Seven Lakes — a journey into the heart of Tajikistan's Fann Mountains, where each lake changes colour from turquoise to deep violet. Tajikistan is closer than it seems.",
         "duration": "Full Day",
         "groupSize": "1–15 pax",
-        "highlights": ["Seven scenic mountain lakes", "Crystal-clear mountain water", "Pristine mountain nature", "Trekking & mountain trails"]
+        "highlights": ["All seven lakes — magic of colour from turquoise to violet", "Legends and history of each lake", "Life in the mountain villages", "Panoramas of the Fann Mountains"]
       }
     ]
   },
@@ -285,10 +287,6 @@
         "answer": "Payment is accepted in cash (USD or UZS) or by transfer. Tour pricing is agreed individually at the time of booking — no hidden fees."
       },
       {
-        "question": "Are there discounts for children?",
-        "answer": "Yes! Children under 6 — free, from 6 to 12 years — 50% discount. Clarify details when booking."
-      },
-      {
         "question": "How long is the overview tour of Samarkand?",
         "answer": "The standard overview tour of main attractions takes 4-5 hours. We can make it shorter or longer as you wish."
       },
@@ -331,6 +329,6 @@
     "social": "Social Media",
     "privacy": "Privacy Policy",
     "made_with": "Made with ❤️ in Samarkand",
-    "copyright": "© 2026 Shohista Guide. Samarkand, Uzbekistan."
+    "copyright": "© 2026 AsiMir Tour & Guide. Samarkand, Uzbekistan."
   }
 }

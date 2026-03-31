@@ -64,6 +64,7 @@ function handleBook() {
               :image="tourImages[i]"
               :name="rt(tour.name)"
               :tag="rt(tour.tag)"
+              :description="tour.description ? rt(tour.description) : ''"
               :duration="rt(tour.duration)"
               :group-size="rt(tour.groupSize)"
               :highlights="tour.highlights.map(h => rt(h))"

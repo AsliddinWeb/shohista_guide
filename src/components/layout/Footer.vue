@@ -22,10 +22,10 @@ const tours = [
         <!-- Brand -->
         <div class="lg:col-span-1">
           <div class="flex items-center gap-3 mb-4">
-            <img :src="logoUrl" alt="Shohista Guide" class="h-12 w-auto brightness-110" />
+            <img :src="logoUrl" alt="AsiMir Tour & Guide" class="h-14 w-auto brightness-110" />
             <div>
-              <div class="font-heading font-bold text-xl">Shohista Guide</div>
-              <div class="text-gold-400 text-xs">Samarkand</div>
+              <div class="font-heading font-bold text-2xl tracking-wide">AsiMir</div>
+              <div class="text-gold-400 text-xs font-medium tracking-widest uppercase">Tour &amp; Guide</div>
             </div>
           </div>
           <p class="text-white/60 text-sm leading-relaxed">

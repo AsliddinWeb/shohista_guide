@@ -5,12 +5,13 @@ import { useI18n } from 'vue-i18n'
 useI18n({ useScope: 'global' })
 
 defineProps({
-  image:     { type: String, default: '' },
-  name:      { type: String, required: true },
-  tag:       { type: String, default: '' },
-  duration:  { type: String, required: true },
-  groupSize: { type: String, default: '1–15 чел' },
-  highlights:{ type: Array, default: () => [] },
+  image:       { type: String, default: '' },
+  name:        { type: String, required: true },
+  tag:         { type: String, default: '' },
+  description: { type: String, default: '' },
+  duration:    { type: String, required: true },
+  groupSize:   { type: String, default: '1–15 чел' },
+  highlights:  { type: Array, default: () => [] },
 })
 
 const emit = defineEmits(['book'])
@@ -36,9 +37,12 @@ const emit = defineEmits(['book'])
 
     <!-- Content -->
     <div class="p-5 flex flex-col flex-1">
-      <h3 class="font-heading font-bold text-xl text-samarkand-900 dark:text-white mb-3 group-hover:text-gold-500 transition-colors">
+      <h3 class="font-heading font-bold text-xl text-samarkand-900 dark:text-white mb-2 group-hover:text-gold-500 transition-colors">
         {{ name }}
       </h3>
+      <p v-if="description" class="text-sm text-gray-500 dark:text-gray-400 italic mb-3 leading-snug">
+        {{ description }}
+      </p>
 
       <!-- Meta -->
       <div class="flex flex-wrap gap-3 mb-4 text-sm text-gray-500 dark:text-gray-400">

@@ -5,13 +5,13 @@ const routes = [
     path: '/',
     name: 'home',
     component: () => import('@/views/HomeView.vue'),
-    meta: { title: 'Shohista Guide | Гид по Самарканду | Samarkand Tour Guide' }
+    meta: { title: 'AsiMir | Гид по Самарканду | Samarkand Tour Guide' }
   },
   {
     path: '/tours',
     name: 'tours',
     component: () => import('@/views/ToursView.vue'),
-    meta: { title: 'Туры по Самарканду — 14 маршрутов | Shohista Guide' }
+    meta: { title: 'Туры по Самарканду — 14 маршрутов | AsiMir' }
   },
   {
     path: '/about',
@@ -23,13 +23,13 @@ const routes = [
     path: '/gallery',
     name: 'gallery',
     component: () => import('@/views/GalleryView.vue'),
-    meta: { title: 'Фото Самарканда — Галерея | Shohista Guide' }
+    meta: { title: 'Фото Самарканда — Галерея | AsiMir' }
   },
   {
     path: '/contact',
     name: 'contact',
     component: () => import('@/views/ContactView.vue'),
-    meta: { title: 'Забронировать тур по Самарканду | Shohista Guide' }
+    meta: { title: 'Забронировать тур по Самарканду | AsiMir' }
   },
 ]
 

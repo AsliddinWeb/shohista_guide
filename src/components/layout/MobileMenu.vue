@@ -27,7 +27,7 @@ const emit = defineEmits(['close'])
       <div class="absolute right-0 top-0 h-full w-72 bg-white dark:bg-gray-900 shadow-2xl flex flex-col">
         <!-- Header -->
         <div class="flex items-center justify-between p-5 border-b border-gray-100 dark:border-gray-800">
-          <img :src="logoUrl" alt="Shohista Guide" class="h-9 w-auto" />
+          <img :src="logoUrl" alt="AsiMir Tour & Guide" class="h-9 w-auto" />
           <button @click="emit('close')" class="w-9 h-9 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors text-gray-600 dark:text-gray-300">
             <X :size="18" />
           </button>
