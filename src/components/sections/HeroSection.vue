@@ -1,6 +1,7 @@
 <script setup>
 import { useI18n } from 'vue-i18n'
 import { ChevronDown, Shield } from 'lucide-vue-next'
+import logoUrl from '@/assets/logo.png'
 
 const { t } = useI18n()
 
@@ -13,7 +14,7 @@ function scrollToSection(id) {
 <template>
   <section
     id="hero"
-    class="relative min-h-screen flex items-end sm:items-center justify-center overflow-hidden"
+    class="relative min-h-screen flex items-center justify-center overflow-hidden"
   >
     <!-- Background image -->
     <div class="absolute inset-0">
@@ -45,7 +46,18 @@ function scrollToSection(id) {
     </div>
 
     <!-- Main content -->
-    <div class="relative z-10 text-center px-4 w-full max-w-4xl mx-auto pb-16 sm:pb-8 pt-28 sm:pt-0">
+    <div class="relative z-10 text-center px-4 w-full max-w-4xl mx-auto pt-24 pb-16 sm:pt-24 sm:pb-8">
+
+      <!-- Logo (hero center) -->
+      <div class="flex flex-col items-center mb-4 sm:mb-6" data-aos="fade-down" data-aos-delay="50">
+        <img :src="logoUrl" alt="AsiMir" class="h-24 sm:h-28 w-auto drop-shadow-2xl" />
+        <div class="mt-2 font-heading font-bold text-white text-2xl sm:text-3xl tracking-wide drop-shadow-lg">
+          AsiMir
+        </div>
+        <div class="text-gold-300 text-xs sm:text-sm font-medium tracking-[0.3em] uppercase">
+          Tour &amp; Guide
+        </div>
+      </div>
 
       <div data-aos="fade-up" data-aos-delay="100">
         <p class="text-gold-300 text-xs sm:text-sm font-medium uppercase tracking-[0.2em] sm:tracking-[0.3em] mb-3 sm:mb-4">

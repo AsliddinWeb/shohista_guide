@@ -39,17 +39,12 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
         : 'bg-white/10 backdrop-blur-md py-3 sm:py-4'
     ]"
   >
-    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 flex items-center">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between gap-2">
 
-      <!-- Logo: centered on mobile via absolute, left-aligned on desktop -->
-      <RouterLink
-        to="/"
-        class="absolute left-1/2 -translate-x-1/2 lg:static lg:translate-x-0
-               flex flex-col items-center gap-0.5
-               lg:flex-row lg:items-center lg:gap-3 lg:flex-shrink-0"
-      >
-        <img :src="logoUrl" alt="AsiMir Tour & Guide" class="h-11 sm:h-12 w-auto" />
-        <div class="text-center lg:text-left">
+      <!-- Logo (left) -->
+      <RouterLink to="/" class="flex items-center gap-2 sm:gap-3 flex-shrink-0">
+        <img :src="logoUrl" alt="AsiMir Tour & Guide" class="h-10 sm:h-12 w-auto" />
+        <div>
           <div :class="['font-heading font-bold text-base sm:text-xl leading-tight tracking-wide transition-colors',
             scrolled ? 'text-samarkand-900 dark:text-white' : 'text-white']">
             AsiMir
@@ -81,8 +76,8 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
       </nav>
 
       <!-- Right side -->
-      <div class="ml-auto flex items-center gap-1.5 sm:gap-2 flex-shrink-0">
-        <!-- Language switcher: hidden on mobile (in MobileMenu), visible on sm+ -->
+      <div class="flex items-center gap-1.5 sm:gap-2 flex-shrink-0">
+        <!-- Language switcher: desktop only -->
         <div class="hidden sm:block">
           <LanguageSwitcher />
         </div>
@@ -92,9 +87,7 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
           @click="toggle"
           :class="[
             'w-8 h-8 sm:w-9 sm:h-9 rounded-full flex items-center justify-center transition-all duration-200',
-            scrolled
-              ? 'text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800'
-              : 'text-white hover:bg-white/20'
+            scrolled ? 'text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800' : 'text-white hover:bg-white/20'
           ]"
           :aria-label="isDark ? 'Switch to light mode' : 'Switch to dark mode'"
         >
