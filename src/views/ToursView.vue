@@ -19,8 +19,8 @@ import img9  from '@/assets/images/tours/ulugbek.jpg'
 import img10 from '@/assets/images/tours/khazrat-khyzr.jpg'
 import img11 from '@/assets/images/tours/eternal-city.jpg'
 import img12 from '@/assets/images/tours/shahrisabz.jpg'
-import img13 from '@/assets/images/tours/zamin.png'
-import img14 from '@/assets/images/tours/zamin-7lakes.png'
+import img13 from '@/assets/images/tours/zomin_yangi.jpg'
+import img14 from '@/assets/images/tours/yetti_kol_yangi.jpg'
 
 const { t, tm, rt, locale } = useI18n()
 const router = useRouter()
