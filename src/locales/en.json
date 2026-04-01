@@ -211,10 +211,8 @@
     "instagram_btn": "See more on Instagram",
     "categories": {
       "all": "All",
-      "registan": "Registan",
-      "shahizinda": "Shah-i-Zinda",
-      "shahrisabz": "Shahrisabz",
-      "tours": "Tours"
+      "day": "Daytime",
+      "night": "Evening"
     }
   },
   "testimonials": {

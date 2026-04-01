@@ -211,10 +211,8 @@
     "instagram_btn": "Смотреть больше в Instagram",
     "categories": {
       "all": "Все",
-      "registan": "Регистан",
-      "shahizinda": "Шахи-Зинда",
-      "shahrisabz": "Шахрисабз",
-      "tours": "Туры"
+      "day": "Днём",
+      "night": "Вечером"
     }
   },
   "testimonials": {

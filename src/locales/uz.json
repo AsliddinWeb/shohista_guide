@@ -211,10 +211,8 @@
     "instagram_btn": "Instagramda ko'proq ko'rish",
     "categories": {
       "all": "Barchasi",
-      "registan": "Registon",
-      "shahizinda": "Shohizinda",
-      "shahrisabz": "Shahrisabz",
-      "tours": "Turlar"
+      "day": "Kunduz",
+      "night": "Kechqurun"
     }
   },
   "testimonials": {
