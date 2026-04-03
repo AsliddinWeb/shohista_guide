@@ -1,7 +1,7 @@
 import { useHead } from '@unhead/vue'
 import { computed, isRef } from 'vue'
 
-const BASE_URL = 'https://shohista-guide.uz'
+const BASE_URL = 'https://asimir-tour.uz'
 const OG_IMAGE = `${BASE_URL}/og-image.jpg`
 const PHONE = '+998883954141'
 

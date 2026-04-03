@@ -6,7 +6,7 @@ Disallow: /src/
 Disallow: /.vite/
 
 # Sitemaps
-Sitemap: https://shohista-guide.uz/sitemap.xml
+Sitemap: https://asimir-tour.uz/sitemap.xml
 
 # Crawl delay (be polite to crawlers)
 Crawl-delay: 10

@@ -9,7 +9,7 @@ import TestimonialsSection from '@/components/sections/TestimonialsSection.vue'
 
 const { t, locale } = useI18n()
 
-useSEO({ page: 'about', locale, url: 'https://shohista-guide.uz/about' })
+useSEO({ page: 'about', locale, url: 'https://asimir-tour.uz/about' })
 </script>
 
 <template>

@@ -7,7 +7,7 @@ import GallerySection from '@/components/sections/GallerySection.vue'
 
 const { t, locale } = useI18n()
 
-useSEO({ page: 'gallery', locale, url: 'https://shohista-guide.uz/gallery' })
+useSEO({ page: 'gallery', locale, url: 'https://asimir-tour.uz/gallery' })
 </script>
 
 <template>

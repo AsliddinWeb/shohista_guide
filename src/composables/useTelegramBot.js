@@ -13,7 +13,7 @@ export function useTelegramBot() {
 📅 *Дата поездки:* ${formData.date || 'не указана'}
 💬 *Сообщение:* ${formData.message}
 ━━━━━━━━━━━━━━━━━━━
-🌐 Источник: shohista-guide.uz
+🌐 Источник: asimir-tour.uz
     `.trim()
 
     const url = `https://api.telegram.org/bot${TELEGRAM_CONFIG.botToken}/sendMessage`

@@ -8,7 +8,7 @@ import FaqSection from '@/components/sections/FaqSection.vue'
 
 const { t, locale } = useI18n()
 
-useSEO({ page: 'contact', locale, url: 'https://shohista-guide.uz/contact' })
+useSEO({ page: 'contact', locale, url: 'https://asimir-tour.uz/contact' })
 </script>
 
 <template>

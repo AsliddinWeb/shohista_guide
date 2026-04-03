@@ -16,7 +16,7 @@ import ContactSection from '@/components/sections/ContactSection.vue'
 
 const { locale } = useI18n()
 
-useSEO({ page: 'home', locale, url: 'https://shohista-guide.uz' })
+useSEO({ page: 'home', locale, url: 'https://asimir-tour.uz' })
 </script>
 
 <template>

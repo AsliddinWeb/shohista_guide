@@ -1,7 +1,7 @@
 {
-  "name": "Shohista Guide — Гид по Самарканду",
-  "short_name": "Shohista Guide",
-  "description": "Сертифицированный гид по Самарканду. Регистан, Шахи-Зинда, Биби-Ханым, Шахрисабз, Заамин. Туры 24/7.",
+  "name": "AsiMir Tour & Guide — Гид по Самарканду",
+  "short_name": "AsiMir",
+  "description": "Сертифицированные гиды по Самарканду. Регистан, Шахи-Зинда, Биби-Ханым, Шахрисабз, Заамин. 24/7.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0d1b2a",
@@ -9,9 +9,10 @@
   "lang": "ru",
   "icons": [
     {
-      "src": "/favicon.ico",
-      "sizes": "48x48",
-      "type": "image/x-icon"
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ]
 }

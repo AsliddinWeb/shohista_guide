@@ -26,7 +26,7 @@ const { t, tm, rt, locale } = useI18n()
 const router = useRouter()
 const tourImages = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14]
 
-useSEO({ page: 'tours', locale, url: 'https://shohista-guide.uz/tours' })
+useSEO({ page: 'tours', locale, url: 'https://asimir-tour.uz/tours' })
 </script>
 
 <template>
